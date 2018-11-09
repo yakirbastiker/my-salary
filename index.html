@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <title>MY SALARY</title>
+    </head>
+    <body>
+        
+        <div class="top">
+            <div class="salary">
+                <div class="salary__title">
+                    Available Budget in <span class="salary__title--month"></span>:
+                </div>
+                
+                <div class="salary__value">Total month: <span class="month-salary"></span></div>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="bottom">
+            <div class="add">
+                <div class="add__container">
+
+                    <input type="number" class="add__perHour perHour" placeholder="Hourly wages">
+                    <input type="number" class="add__hours hours" placeholder="hours">
+                    <input type="date" class="add__date date" placeholder="date">
+                    
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+            
+            <div class="container clearfix">
+                <div class="shifts">
+                    <h2 class="shifts__title">MY SHIFTS</h2>
+                    
+                    <div class="shifts__list"></div>
+                </div>
+                
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <script src="js/app.js"></script>
+    </body>
+</html>
